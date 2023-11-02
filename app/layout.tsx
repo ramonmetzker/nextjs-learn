@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   },
   description:
     "The official Next.js Learn Dashboard built with App Router. By Ramon Metzker",
-  metadataBase: new URL("https://nextjs-dashboard-tau-wheat.vercel.app"),
+  metadataBase: new URL("https://acme.ramonmetzker.dev"),
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://nextjs-dashboard-tau-wheat.vercel.app",
+    url: "https://acme.ramonmetzker.dev",
     siteName: "Acme Dashboard",
     images: [
       {
-        url: "https://nextjs-dashboard-tau-wheat.vercel.app/opengraph-image.png",
+        url: "https://acme.ramonmetzker.dev/opengraph-image.png",
         width: 1686,
         height: 882,
         alt: "Acme Dashboard",
