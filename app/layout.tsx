@@ -7,7 +7,8 @@ export const metadata: Metadata = {
     template: "%s | Acme Dashboard",
     default: "Acme Dashboard",
   },
-  description: "The official Next.js Learn Dashboard built with App Router.",
+  description:
+    "The official Next.js Learn Dashboard built with App Router. By Ramon Metzker",
   metadataBase: new URL("https://nextjs-dashboard-tau-wheat.vercel.app"),
   openGraph: {
     type: "website",
@@ -22,6 +23,20 @@ export const metadata: Metadata = {
         alt: "Acme Dashboard",
       },
     ],
+    title: "Acme Dashboard",
+    description:
+      "The official Next.js Learn Dashboard built with App Router. By Ramon Metzker",
+  },
+  authors: [
+    {
+      name: "Ramon Metzker",
+      url: "https://github.com/ramonmetzker",
+    },
+  ],
+  twitter: {
+    card: "summary_large_image",
+    creator: "@ramon_tsx",
+    creatorId: "ramon_tsx",
   },
 };
 
